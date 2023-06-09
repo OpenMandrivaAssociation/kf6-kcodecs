@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Codecs
 %define devname %mklibname KF6Codecs -d
-%define git 20230608
+%define git 20230609
 
 Name: kf6-kcodecs
 Version: 5.240.0
