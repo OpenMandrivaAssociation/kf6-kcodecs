@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Codecs
 %define devname %mklibname KF6Codecs -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-kcodecs
 Version: 5.240.0
@@ -72,7 +72,6 @@ KCodecs provide a collection of methods to manipulate strings using various enco
 %files -n %{devname}
 %{_includedir}/KF6/KCodecs
 %{_libdir}/cmake/KF6Codecs
-%{_qtdir}/mkspecs/modules/qt_KCodecs.pri
 %{_qtdir}/doc/KF6Codecs.*
 
 %files -n %{libname}
