@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6Codecs
 %define devname %mklibname KF6Codecs -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-kcodecs
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcodecs/-/archive/master/kcodecs-master.tar.bz2#/kcodecs-%{git}.tar.bz2
