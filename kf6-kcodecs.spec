@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kcodecs
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcodecs/-/archive/master/kcodecs-master.tar.bz2#/kcodecs-%{git}.tar.bz2
@@ -79,7 +79,6 @@ KCodecs provide a collection of methods to manipulate strings using various enco
 %files -n %{devname}
 %{_includedir}/KF6/KCodecs
 %{_libdir}/cmake/KF6Codecs
-%{_qtdir}/doc/KF6Codecs.*
 
 %files -n %{libname}
 %{_libdir}/libKF6Codecs.so*
